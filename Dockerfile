@@ -1,6 +1,6 @@
 FROM alpine/git:v2.24.1
 
-ENV WORKDIR="/check-trailing-whitespace "
+ENV WORKDIR="/check-trailing-whitespace"
 WORKDIR ${WORKDIR}
 
 RUN apk add bash
