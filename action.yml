@@ -1,0 +1,9 @@
+name: Check Trailing Whitespace
+author: UT-Computational-NE
+branding:
+  icon: 'search'
+  color: 'green'
+description: Checks Trailing Whitespace while ignoring certain folders like tribits.
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
